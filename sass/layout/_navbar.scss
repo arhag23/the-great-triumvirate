@@ -1,0 +1,48 @@
+.nav-cont {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    z-index: 1;
+    padding: 2% 5%;
+    position: absolute;
+    width: 100%;
+}
+
+.nav-cont-left {
+    flex-grow: 1;
+}
+
+.nav-cont-right {
+    flex-grow: 1;
+}
+
+.nav-cont-right-align {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.nav-link-cont {
+    float: right;
+}
+
+.nav-link {
+    display: inline-block;
+    margin-left: 5rem;
+    font-family: "Universal Fruitcake";
+    color: white;
+    font-size: 1.5rem;
+    border-bottom: 0.2rem solid rgba(0, 0, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    border-bottom: 0.2rem solid white;
+}
+
+.nav-title {
+    font-family: "Kalam";
+    font-size: 3.5rem;
+    color: white;
+}

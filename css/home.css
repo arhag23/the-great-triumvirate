@@ -1,0 +1,191 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit; }
+
+@font-face {
+  font-family: "Universal Fruitcake";
+  src: url("../fonts/universalfruitcake.ttf"); }
+
+@font-face {
+  font-family: "Kalam";
+  src: url("../fonts/kalam.ttf"); }
+
+@font-face {
+  font-family: "Bauer Bodoni Std";
+  src: url("../fonts/BauerBodoniStd.otf"); }
+
+.header-title {
+  font-family: "Bauer Bodoni Std";
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  font-size: 15rem;
+  letter-spacing: 1rem;
+  position: absolute;
+  left: 5%;
+  top: -9rem; }
+
+@keyframes overlay-anim {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.triumvirate-cont {
+  display: flex;
+  z-index: -1; }
+
+.triumvirate-child {
+  flex-grow: 1;
+  flex-basis: 0;
+  height: 100vh;
+  background-size: cover; }
+
+.triumvirate-overlay {
+  background-color: rgba(182, 191, 184, 0.35);
+  height: 100%;
+  width: 100%;
+  visibility: hidden; }
+
+.triumvirate-child:hover .triumvirate-overlay {
+  visibility: visible;
+  animation: overlay-anim 0.4s ease-out; }
+
+.triumvirate-name {
+  font-family: "Lato";
+  color: white;
+  font-weight: 700;
+  font-size: 12.5rem;
+  text-align: center;
+  padding-top: 20%; }
+
+.triumvirate-text {
+  font-family: "Gelasio";
+  color: white;
+  font-weight: 400;
+  font-size: 3rem;
+  text-align: center;
+  padding: 10% 4%; }
+
+.triumvirate-overlay button {
+  font-family: "Lato";
+  border: 0.2rem solid white;
+  color: white;
+  background-clip: text;
+  font-weight: 700;
+  padding: 1rem;
+  font-size: 1.75rem;
+  width: 35%;
+  margin: 0 calc(65% / 2); }
+
+.triumvirate-overlay button:hover {
+  transition: all .4s ease-out;
+  background-clip: initial;
+  color: black;
+  background-color: white;
+  mix-blend-mode: lighten; }
+
+.introduction {
+  background: #000;
+  padding-bottom: 5rem;
+  position: relative; }
+
+.introduction-title-1 {
+  font-family: "Bauer Bodoni Std";
+  font-weight: 400;
+  text-transform: uppercase;
+  color: white;
+  font-size: 6rem;
+  letter-spacing: 0.25rem;
+  padding-left: 10%;
+  padding-top: 5rem; }
+
+.introduction-text {
+  margin-left: 10%;
+  padding-left: 2.5%;
+  border-left: 0.3rem solid #f05d08;
+  margin-top: 5rem;
+  font-family: "Gelasio";
+  font-size: 2.75rem;
+  color: white;
+  width: 72.5%;
+  line-height: 4.5rem; }
+
+.introduction-text button {
+  font-family: "Lato";
+  border: 0.2rem solid #f05d08;
+  color: #f05d08;
+  background-clip: text;
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+  font-size: 1.75rem; }
+
+.introduction-text button:hover {
+  transition: all .4s ease-out;
+  background-clip: initial;
+  color: black;
+  background-color: #f05d08;
+  mix-blend-mode: lighten; }
+
+.nav-cont {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  z-index: 1;
+  padding: 2% 5%;
+  position: absolute;
+  width: 100%; }
+
+.nav-cont-left {
+  flex-grow: 1; }
+
+.nav-cont-right {
+  flex-grow: 1; }
+
+.nav-cont-right-align {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%; }
+
+.nav-link-cont {
+  float: right; }
+
+.nav-link {
+  display: inline-block;
+  margin-left: 5rem;
+  font-family: "Universal Fruitcake";
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: 0.2rem solid rgba(0, 0, 0, 0);
+  transition: all 0.3s ease-in-out; }
+
+.nav-link:hover {
+  border-bottom: 0.2rem solid white; }
+
+.nav-title {
+  font-family: "Kalam";
+  font-size: 3.5rem;
+  color: white; }
+
+.clay {
+  background-image: url("../img/henry-clay.jpg"); }
+
+.webster {
+  background-image: url("../img/daniel-webster.jpg"); }
+
+.calhoun {
+  background-image: url("../img/john-c-calhoun.jpg"); }

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Universal Fruitcake";
+    src: url('../fonts/universalfruitcake.ttf')
+}
+
+@font-face {
+    font-family: "Kalam";
+    src: url('../fonts/kalam.ttf');
+}
+
+@font-face {
+    font-family: "Bauer Bodoni Std";
+    src: url('../fonts/BauerBodoniStd.otf');
+}
+
+.header-title {
+    font-family: "Bauer Bodoni Std";
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15rem;
+    letter-spacing: 1rem;
+    position: absolute;
+    left: 5%;
+    top: -9rem;
+}
