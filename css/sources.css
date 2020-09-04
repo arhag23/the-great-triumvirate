@@ -17,11 +17,11 @@ a {
 
 @font-face {
   font-family: "Universal Fruitcake";
-  src: url("../fonts/universalfruitcake.ttf"); }
+  src: url("../fonts/UNIVERSALFRUITCAKE.ttf"); }
 
 @font-face {
   font-family: "Kalam";
-  src: url("../fonts/kalam.ttf"); }
+  src: url("../fonts/Kalam.ttf"); }
 
 @font-face {
   font-family: "Bauer Bodoni Std";
@@ -46,6 +46,14 @@ a {
 
 body {
   background-color: black; }
+
+.text-source {
+  font-family: "Gelasio";
+  font-size: 2rem;
+  color: white;
+  width: 75%;
+  padding-top: 5rem;
+  padding-left: 5%; }
 
 .nav-cont {
   display: inline-flex;
