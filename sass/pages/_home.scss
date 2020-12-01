@@ -5,7 +5,7 @@
 
 .triumvirate-child {
     flex-grow: 1;
-    flex-basis: 0;
+    flex-basis: calc(100% / 3);
     height: 100vh;
     background-size: cover;
 }
